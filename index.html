@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjetas de Anime</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="botones">
+        <h1>Tarjetas de Anime</h1>
+        <button id="change-cards">Cambiar Tarjetas</button>
+        <div style="display: none;">
+            <label for="anime-count">Cantidad de animes: <span id="anime-count-value">5</span></label>
+            <input type="range" id="anime-count" name="anime-count" min="3" max="10" value="5">
+        </div>
+    </div>
+    <div class="container">
+        <div id="anime-cards" class="cards-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
